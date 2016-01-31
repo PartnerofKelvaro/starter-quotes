@@ -1,4 +1,16 @@
 Change Log Order:
 Newest at top
 
+1/30/2016 21:35 -Liam -Link 4 working
+
+1/30/2016 21:30 -Liam - Realized nobody was updating the changelog, added all changes
+
+1/30/2016 - Celia -Link 5 Working
+
+1/30/2016 -Johnny -Link 6 working
+
+1/30/2016 -Liam -Link 1 working
+
+1/29/2016 -Celia -Link 2 working
+
 1/28/2016 10:48 -Liam- Updated the readme to show team members and coding style.
