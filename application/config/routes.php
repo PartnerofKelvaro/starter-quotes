@@ -41,6 +41,7 @@
 $route['default_controller'] = "welcome";
 $route['404_override'] = '';
 $route['sleep'] = "first/zzz";//link 3
+$route['comp+(\d+)/\w+']= Wise/bingo; //link 8
 
 
 //link 6
