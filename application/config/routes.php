@@ -46,6 +46,7 @@ $route['show/[0-9]'] = "first/gimme/3"; //link 5
 $route['lock/(:any)/(:any)'] = "welcome/shucks";
 $route['\b\w{4}\b/bingo'] = "/bingo";
 $route['comp+(\d+)/\w+']= 'Wise/bingo'; //link 8
+$route['comp(\d+)/wisdom'] = 'wise/bingo';
   
  
  //link 6
