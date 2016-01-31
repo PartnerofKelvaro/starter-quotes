@@ -33,6 +33,18 @@ class Welcome extends Application {
 
 		$this->render();
 	}
+        function shucks() {
+            $this->data['pagebody'] = 'justone';// this is the view we want shown
+		// select quote
+		$this->load->model('Quotes');
+		$author = $this->quotes->get(2);
+                
+		$this->data['what'] = $author['what'];
+                $this->data['mug'] = $author['mug'];
+                $this->data['who'] = $author['who'];
+
+		$this->render();
+        }
 
 }
 
