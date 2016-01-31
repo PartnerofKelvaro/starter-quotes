@@ -44,6 +44,17 @@ $route['sleep'] = "first/zzz";//link 3
 $route['show/[0-9]'] = "first/gimme/3"; //link 5
 $route['lock/(:any)/(:any)'] = "welcome/shucks";
 $route['\b\w{4}\b/bingo'] = "/bingo";
-
+$route['comp+(\d+)/\w+']= 'Wise/bingo'; //link 8
+  
+ 
+ //link 6
+ $route['dunno'] = function() {
+    $source = './data/surprise.jpg'; // an image you provide
+    // set the mime type for that image
+    header("Content-type: image/jpeg"); 
+    header('Content-Disposition: inline');
+    readfile($source); // dish it
+     die(); // and we don't have to go any further
+ };
 /* End of file routes.php */
 /* Location: ./application/config/routes.php */
