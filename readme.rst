@@ -6,8 +6,9 @@ Starter Webapp - Quotes
 Team Members:
 *************
 
-Liam Wyatt
-Celia Lee
+Liam Wyatt - checking in!
+Celia Lee - checking in!
+Jahun Kang - checking in!
 
 ******************
 Coding Conventions
